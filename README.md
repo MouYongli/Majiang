@@ -6,6 +6,11 @@
 
 ![Mahjong Game Screenshot](./docs/screenshot.png)
 
+![Mahjong Game Screenshot](./public/svg/wang.svg)
+
+
+
+
 **Mahjong Strategy Platform** - Modern Web Implementation with Classic Gameplay and AI Opponents
 
 [中文简体](./README.zh-CN.md) | English
@@ -92,3 +97,4 @@ flask db init
 flask db migrate
 flask db upgrade
 ```
+
