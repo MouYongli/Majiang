@@ -1,14 +1,10 @@
 # 雀神传说：智谋与天命的博弈
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![Node.js 18.x](https://img.shields.io/badge/Node.js-18.x-green.svg)](https://nodejs.org/)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![Node.js 23.x](https://img.shields.io/badge/Node.js-23.x-green.svg)](https://nodejs.org/)
 
 ![Mahjong Game Screenshot](./docs/screenshot.png)
-
-![Mahjong Game Screenshot](./public/svg/wang.svg)
-
-
 
 
 **Mahjong Strategy Platform** - Modern Web Implementation with Classic Gameplay and AI Opponents
@@ -43,7 +39,7 @@
 ### Frontend Architecture
 | Module         | Technologies               |
 |----------------|----------------------------|
-| Core Framework | Next.js 14 (App Router)    |
+| Core Framework | Next.js 15 (App Router)    |
 | State Management| Zustand + Immer           |
 | Styling        | TailwindCSS + CSS Modules |
 | Animation      | Framer Motion             |
@@ -52,13 +48,18 @@
 ### Backend Architecture
 | Module         | Technologies               |
 |----------------|----------------------------|
-| Core Framework | Flask + Socket.IO         |
-| Databases      | PostgreSQL + Redis        |
-| ORM            | SQLAlchemy 2.0            |
+| Core Framework | FastAPI + Socket.IO         |
+| Databases      | SQLite + Redis        |
+| ORM            | SQLAlchemy           |
 | Task Queue     | Celery                    |
+
+### Deployment
+| Component      | Technologies               |
+|----------------|----------------------------|
+| CI/CD Pipeline | GitHub Actions            |
 | Deployment     | Docker + Kubernetes       |
 
-### AI Subsystem
+### AI
 | Component      | Technologies               |
 |----------------|----------------------------|
 | Training Framework | PyTorch + RLlib        |
@@ -69,9 +70,9 @@
 ## 🚀 Getting Started
 
 ### Development Requirements
-- Node.js 18.x + pnpm
-- Python 3.9+ + Poetry
-- PostgreSQL 15 + Redis 7
+- Node.js 23.x + npm
+- Python 3.10+ + Conda
+- 
 
 ### Installation
 
